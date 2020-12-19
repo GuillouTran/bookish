@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "bookish",
+  "alias": "bookish.tech",
+  "builds": [
+    { "src": "next.config.js", "use": "@now/next" }
+  ]
+}

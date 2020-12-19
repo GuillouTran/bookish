@@ -1,0 +1,20 @@
+{
+  "name": "bookish",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:tmcw/bookish.git",
+  "author": "Tom MacWright <tom@macwright.org>",
+  "license": "MIT",
+  "dependencies": {
+    "isomorphic-unfetch": "^3.0.0",
+    "js-yaml": "^3.13.1",
+    "next": "^9.3.0",
+    "react": "^16.8.2",
+    "react-dom": "^16.8.2"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
