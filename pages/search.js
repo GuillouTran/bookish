@@ -8,9 +8,9 @@ export default class Search extends React.Component {
     const { id, type } = query;
     const host =
       process.env.NODE_ENV === "production"
-        ? "https://api.bookish.tech"
+        ? "https://bookish-api.herokuapp.com/"
         : "http://localhost:3111";
-    const url = `${host}/search?type=${type}&id=${id}`;
+    const url = `${host}/?type=${type}&id=${id}`;
     try {
       const res = await (await fetch(url)).json();
       if (!res) throw new Error();
