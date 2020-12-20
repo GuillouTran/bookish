@@ -1,7 +1,7 @@
 {
   "version": 2,
-  "name": "bookish",
-  "alias": "bookish.tech",
+  "name": "book",
+  "alias": "books.guilloutran.com",
   "builds": [
     { "src": "next.config.js", "use": "@now/next" }
   ]
