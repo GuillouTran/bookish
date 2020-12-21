@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "name": "book",
+  "alias": "books.guilloutran.com",
+  "builds": [
+    { "src": "next.config.js", "use": "@vercel/next" }
+  ]
+}

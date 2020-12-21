@@ -8,7 +8,7 @@ export default class Search extends React.Component {
     const { id, type } = query;
     const host =
       process.env.NODE_ENV === "production"
-        ? "https://bookish-api.herokuapp.com/"
+        ? "https://guilloutran.herokuapp.com/"
         : "http://localhost:3111";
     const url = `${host}/?type=${type}&id=${id}`;
     try {
