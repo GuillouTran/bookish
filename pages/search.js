@@ -73,7 +73,7 @@ export default class Search extends React.Component {
     return (
       <div>
         <Head>
-          <title>bookish.tech</title>
+          <title>guilloutran|Booksearch</title>
           <link
             rel="stylesheet"
             href="https://unpkg.com/tachyons@4.10.0/css/tachyons.min.css"
@@ -85,7 +85,7 @@ export default class Search extends React.Component {
         </Head>
         <div className="mw6 ph4-ns sans-serif center ph3 ph0-ns">
           <div className="flex justify-between items-end">
-            <h1 className="f3 mt4 mb0">Bookish</h1>
+            <h1 className="f3 mt4 mb0">Booksearch</h1>
             <a href="/help">help</a>
           </div>
           <form className="flex pv3" action="/search">
