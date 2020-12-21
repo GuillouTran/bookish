@@ -4,7 +4,7 @@ node_js:
   - "stable"
 env:
   global:
-    - BUILD_TIMEOUT=10000
+    - BUILD_TIMEOUT=5000
 install:
   - npm install
   - npm run build
